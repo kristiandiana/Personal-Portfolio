@@ -1,0 +1,57 @@
+.about-section {
+    background-color: #5b79ad;
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    margin-bottom: 0rem; /* Adjust this value if needed */
+  }
+  
+  .portrait-img {
+    width: 50%;
+    max-width: none;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s;
+    margin-right: 2rem; /* Increased space between image and text */
+  }
+  
+  .portrait-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .sports-section,
+  .hobbies-section,
+  .travel-section {
+    background-color: #d4d4d4; /* Changed background color to white */
+  }
+  
+  hr {
+    margin-top: 6rem; /* Adjust this value if needed */
+  }
+  
+  .sports-section h1,
+  .hobbies-section h1,
+  .travel-section h1,
+  .about-section h1 {
+    color: black; /* Tailwind blue-600 */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .sports-section p,
+  .hobbies-section p,
+  .travel-section p {
+    text-align: center;
+    font-size: 1.125rem; /* Adjust as needed */
+    padding-left: 1rem; /* Add left padding */
+    padding-right: 1rem; /* Add right padding */
+  }
+  
+  .about-section {
+    width: 90%; /* Adjust width for margin on the sides */
+    max-width: 1200px; /* Max width for large screens */
+  }
+  

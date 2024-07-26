@@ -1,0 +1,81 @@
+/* Home.css */
+
+.shadow-3d {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.no-border {
+  border: none !important;
+  background-color: #1c1917; /* Match the background color of Home.js */
+}
+
+.typewriter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.typewriter-text {
+  white-space: nowrap;
+}
+
+#particles canvas {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.bg-semi-transparent {
+  background-color: rgba(45, 45, 45, 0.8); /* Adjust the alpha value for desired transparency */
+  backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+}
+
+.icon-size {
+  font-size: 2.9em; /* Adjust this value as needed to match the text size */
+  margin-right: 0.8em; /* Optional: Adjust the spacing between the icon and the text */
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  background-color: #d3d3d3; /* Lighter gray background */
+  transition: background-color 0.3s, transform 0.5s; /* Smooth transition for background color and scale */
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, rgba(211, 211, 211, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  transition: opacity 1s, transform 1s; /* Increased transition duration */
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.5);
+  z-index: 1; /* Ensure the spotlight effect is below the text */
+}
+
+.box:hover::before {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(211, 211, 211, 1) 100%);
+}
+
+.box:hover {
+  background-color: #A0A0A0; /* Accent color on hover */
+  transform: scale(1.05); /* Slightly enlarge the box */
+}
+
+.box-text {
+  position: relative;
+  z-index: 2; /* Ensure text is above the spotlight effect */
+  color: black; /* Adjust text color for better contrast if needed */
+}
+
+.box-icon{
+  position: relative;
+  z-index: 2;
+}

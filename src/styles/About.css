@@ -1,0 +1,57 @@
+.about-section {
+  background-color: #5b79ad;
+  color: black;
+  padding: 2rem;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  margin-bottom: 0rem; /* No extra margin needed */
+}
+
+.portrait-img {
+  width: 50%;
+  max-width: none;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s;
+  margin-right: 2rem;
+}
+
+.portrait-img:hover {
+  transform: scale(1.05);
+}
+
+.sports-section,
+.hobbies-section,
+.travel-section {
+  background-color: #d4d4d4;
+}
+
+hr {
+  margin-top: 6rem; /* Space above the hr */
+  margin-bottom: 1rem; /* Reduced space below the hr */
+}
+
+.sports-section h1,
+.hobbies-section h1,
+.travel-section h1,
+.about-section h1 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sports-section p,
+.hobbies-section p,
+.travel-section p {
+  text-align: center;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.about-section {
+  width: 90%;
+  max-width: 1200px;
+}
