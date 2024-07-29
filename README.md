@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-## Development Tools
+## :wrench: sDevelopment Tools
 
 *Put badges for react, tailwind, react-framer-motion, bootstrap, Particles*
 

@@ -6,7 +6,6 @@ import portrait from "../images/portrait.jpg";
 import "../styles/About.css";
 import { Link } from "react-router-dom";
 
-
 const About = () => {
   const AboutVariants = {
     initial: { y: "-100%", x: "-100%", opacity: 1 },
@@ -46,7 +45,7 @@ const About = () => {
         onAnimationComplete={() => setNavbarVisible(true)}
         onAnimationStart={() => setNavbarVisible(false)}
       >
-        <main className="flex flex-col items-center justify-center mt-24 mb-20 p-4">
+        <main className="flex flex-col items-center justify-center mt-24 mb-10 p-4">
           <div className="about-section grid grid-cols-1 md:grid-cols-3 items-center gap-4 border rounded shadow-md p-4 bg-stone-300 w-11/12 max-w-5xl">
             <div className="md:col-span-1 flex justify-center">
               <img src={portrait} alt="Portrait" className="portrait-img" />
@@ -78,7 +77,7 @@ const About = () => {
             <div className="flex flex-col items-center">
               <h1 className="text-6xl text-center mb-4 text-blue-600 font-bold">Passions</h1>
               <p className="text-lg text-center px-4 md:px-8">
-                Traveling is one of my greatest passions. Seeing the world and spending time with family is one of the many priveleges that life has to offer. 
+                Traveling is one of my greatest passions. Seeing the world and spending time with family is one of the many privileges that life has to offer. 
                 <br/><br/>
                 I also really enjoy music, and am a bit of a concert enthusiast. Some of my favourite shows have been Travis Scott, Red Hot Chili Peppers, and Drake. 
                 Whether I'm walking to class, at the gym, or studying, you can bet I've got headphones on.
@@ -87,9 +86,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <hr className="my-16 border-t-2 border-gray-300 w-2/3" />
-          <Footer/>
         </main>
+
+        <Footer />
       </m.div>
     </div>
   );

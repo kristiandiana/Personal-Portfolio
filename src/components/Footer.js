@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 
 const Footer = () => {
   const location = useLocation();
-  const currentPath = location.pathname.toLowerCase(); // Convert currentPath to lowercase
+  const currentPath = location.pathname.toLowerCase();
 
   const links = [
     { path: '/contact', label: 'Contact' },
@@ -15,10 +15,13 @@ const Footer = () => {
 
   return (
     <footer className="footer">
+      <div className="flex justify-center">
+        <hr className="my-5 border-t-2 border-gray-300 w-2/3" />
+      </div>
       <div className="footer-content">
         <div className="footer-links">
-          {links.map(link => 
-            link.path.toLowerCase() !== currentPath && ( // Convert link.path to lowercase
+          {links.map(link =>
+            link.path.toLowerCase() !== currentPath && (
               <Link key={link.path} to={link.path} className="footer-link">
                 {link.label}
               </Link>

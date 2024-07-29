@@ -1,0 +1,8 @@
+.education-section {
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    margin-bottom: 0rem; /* No extra margin needed */
+  }

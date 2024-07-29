@@ -1,10 +1,12 @@
 .about-section {
-  background-color: #5b79ad;
+  background-color:rgba(0, 123, 255, 0.2);
   color: black;
   padding: 2rem;
   border-radius: 10px;
   border-color: transparent;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  width: 90%;
+  max-width: 1200px;
   margin-bottom: 0rem; /* No extra margin needed */
 }
 
@@ -25,13 +27,10 @@
 .sports-section,
 .hobbies-section,
 .travel-section {
-  background-color: #d4d4d4;
+  background-color: white;
 }
 
-hr {
-  margin-top: 6rem; /* Space above the hr */
-  margin-bottom: 1rem; /* Reduced space below the hr */
-}
+
 
 .sports-section h1,
 .hobbies-section h1,
@@ -51,7 +50,4 @@ hr {
   padding-right: 1rem;
 }
 
-.about-section {
-  width: 90%;
-  max-width: 1200px;
-}
+

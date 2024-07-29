@@ -1,5 +1,5 @@
 .about-section {
-    background-color: #5b79ad;
+    background-color: rgba(0, 123, 255, 0.2);
     color: black;
     padding: 2rem;
     border-radius: 10px;
@@ -7,6 +7,22 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
     margin-bottom: 0rem; /* Adjust this value if needed */
   }
+
+  .projects-section {
+    margin-bottom: 0; /* Ensure there's no extra margin */
+  }
+  
+  .mb-12 {
+    margin-bottom: 3rem; /* Adjust as needed */
+  }
+  
+
+  .projects-section hr {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
   
   .portrait-img {
     width: 50%;
@@ -25,12 +41,10 @@
   .sports-section,
   .hobbies-section,
   .travel-section {
-    background-color: #d4d4d4; /* Changed background color to white */
+    background-color: #f1f5f9; /* Changed background color to white */
   }
+
   
-  hr {
-    margin-top: 6rem; /* Adjust this value if needed */
-  }
   
   .sports-section h1,
   .hobbies-section h1,
