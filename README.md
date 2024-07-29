@@ -1,5 +1,9 @@
 # Personal Portfolio
 
+Developed over summer 2024. This site serves as an improvement to my previous personal portfolio linked below, and demonstrates my frontend skill improvements.
+[Previous Portfolio](https://kristiandiana.netlify.app/)
+
+
 ## ⚡ Technologies
 
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
