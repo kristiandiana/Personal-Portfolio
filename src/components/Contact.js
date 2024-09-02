@@ -63,7 +63,7 @@ const Contact = () => {
               <svg xmlns="http://www.w3.org/2000/svg" className="text-6xl" viewBox="0 0 24 24" width="61" height="61"><path fill="currentColor" d="M6.002 1.61L0 12.004L6.002 22.39h11.996L24 12.004L17.998 1.61zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31c0 4.436-3.21 6.302-6.456 6.302H7.595zm2.517 2.449v7.714h1.241c2.646 0 3.862-1.55 3.862-3.861c.009-2.569-1.096-3.853-3.767-3.853Z"/></svg>
               <span className="mt-2 text-lg">Devpost</span>
             </a>
-            <a href="https://www.linkedin.com/in/kristian-diana-645984246/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center mx-6 text-center text-black hover:text-gray-600">
+            <a href="https://www.linkedin.com/in/kristiandiana/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center mx-6 text-center text-black hover:text-gray-600">
               <FaLinkedin className="text-6xl" />
               <span className="mt-2 text-lg">LinkedIn</span>
             </a>

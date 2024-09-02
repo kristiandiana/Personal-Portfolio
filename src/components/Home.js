@@ -40,13 +40,13 @@ const Home = () => {
                   transition={{ duration: 1.5 }}
                   className="text-5xl md:text-6xl lg:text-7xl text-center"
                 >
-                  Hey, it's Kristian. 
+                  Hey, it's Kristian! 
                 </m.h1>
               </div>
               <div className="text-4xl md:text-5xl lg:text-6xl text-center mt-8 flex justify-center items-center typewriter-container">
                 <p className="mr-2 typewriter-text">Welcome</p>
                 <Typewriter 
-                  words={[' to my personal portfolio!']} 
+                  words={[' to my personal portfolio.']} 
                   loop={false} 
                   cursor 
                   cursorStyle='|' 

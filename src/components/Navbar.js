@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../styles/Navbar.css';
 import { Grid, Person, Link45deg, Mortarboard, CodeSlash } from 'react-bootstrap-icons';
@@ -6,6 +6,19 @@ import { Grid, Person, Link45deg, Mortarboard, CodeSlash } from 'react-bootstrap
 const Navbar = () => {
   const location = useLocation();
   const locationName = location.pathname.substring(1) || 'Home';
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 500);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
@@ -30,7 +43,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-content">
         <div className="navbar-logo">
-          <Link to="/">Kristian Diana</Link>
+          <Link to="/">{isMobile ? 'KD' : 'Kristian Diana'}</Link>
         </div>
         <div className="navbar-location">
           {renderIcon()}

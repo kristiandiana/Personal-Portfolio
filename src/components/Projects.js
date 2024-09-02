@@ -64,7 +64,7 @@ const Projects = () => {
             </div>
             {/* Project 2 */}
             <div className="border rounded-lg shadow-md p-4 bg-slate-100 text-center">
-              <h2 className="text-4xl text-black font-bold mb-2">JustTheInstructions</h2>
+              <h2 className="text-4xl text-black font-bold mb-2">Just The Instructions</h2>
               <a href="https://github.com/IainMac32/JustTheInstruction" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mb-4 block">GitHub</a>
               <p className="text-lg mb-4">Isn't it the worst having to scroll for what feels like hours to get to the recipe on a webpage?
                 JustTheInstructions is a Google Chrome Extension that solves this issue by using machine learning to extract only the information you actually want. 
@@ -96,7 +96,7 @@ const Projects = () => {
             {/* Project 4 */}
             <div className="border rounded-lg shadow-md p-4 bg-slate-100 text-center">
               <h2 className="text-4xl text-black font-bold mb-2">Personal Portfolio: Edition 1</h2>
-              <a href="https://kristiandiana.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mb-4 block">Link</a>
+              <a href="https://kristiandiana-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mb-4 block">Link</a>
               <p className="text-lg mb-4">One of my first web development projects. Introduced me to JavaScript and fundamental design skills. </p>
               <hr className="my-2 border-t border-gray-300"/>
               <div className="learning-highlight p-2 bg-blue-200 rounded-lg">

@@ -77,12 +77,9 @@ const About = () => {
             <div className="flex flex-col items-center">
               <h1 className="text-6xl text-center mb-4 text-blue-600 font-bold">Passions</h1>
               <p className="text-lg text-center px-4 md:px-8">
-                Traveling is one of my greatest passions. Seeing the world and spending time with family is one of the many privileges that life has to offer. 
+                I really enjoy music, and am a bit of a concert enthusiast. Some of my favourite shows have been Travis Scott, Red Hot Chili Peppers, and Drake. 
                 <br/><br/>
-                I also really enjoy music, and am a bit of a concert enthusiast. Some of my favourite shows have been Travis Scott, Red Hot Chili Peppers, and Drake. 
-                Whether I'm walking to class, at the gym, or studying, you can bet I've got headphones on.
-                <br/><br/>
-                Some other fun facts are that I enjoy fishing, cooking, and can solve a 3x3 rubik's cube in under 20 seconds. 
+                Some other fun facts are that I enjoy travelling, Formula 1, fishing, and can solve a 3x3 rubik's cube in under 20 seconds. 
               </p>
             </div>
           </div>
