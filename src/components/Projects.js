@@ -51,6 +51,37 @@ const Projects = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-11/12 max-w-5xl mb-12">
             {/* Project 1 */}
+              <div className="border rounded-lg shadow-md p-4 bg-slate-100 text-center">
+              <h2 className="text-4xl text-black font-bold mb-2">Ocular Disease Identifier</h2>
+              <a href="https://github.com/DSC-McMaster-U/Ocular-Disease-Identifier" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mb-4 block">GitHub</a>
+              <p className="text-lg mb-4">As Team Lead of McMaster's Google Developers Student Club, I lead the development
+                of a CNN based full-stack web application. Our project leverages machine learning to tackle early disease detection
+                and provide more accessible care for ocular diseases.
+                
+              </p>
+              <hr className="my-2 border-t border-gray-300"/>
+              <div className="learning-highlight p-2 bg-blue-200 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-2">Learning Highlights</h3>
+                <p className="text-base">Project management using scrum/agile methodologies</p>
+              </div>
+            </div>
+            {/* Project 2 */}
+            <div className="border rounded-lg shadow-md p-4 bg-slate-100 text-center">
+              <h2 className="text-4xl text-black font-bold mb-2">TrafficLightRL</h2>
+              <a href="https://github.com/IainMac32/JustTheInstruction" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mb-4 block">GitHub</a>
+              <p className="text-lg mb-4">
+                 As projects Team Lead of McMaster's AI Society, I lead the development of a reinforcement learning project, 
+                 TrafficLightRL, which utilizes RL and interactive simulations to reduce overall wait times and C02 emissions
+                 while accurately depicting real-life.
+              </p>
+              <hr className="my-2 border-t border-gray-300"/>
+              <div className="learning-highlight p-2 bg-blue-200 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-2">Learning Highlights</h3>
+                <p className="text-base">Policy development with Stable-Baselines3 and reward function parameterization with SUMO.
+                </p>
+              </div>
+            </div>
+            {/* Project 1 */}
             <div className="border rounded-lg shadow-md p-4 bg-slate-100 text-center">
               <h2 className="text-4xl text-black font-bold mb-2">Second Brain for Students</h2>
               <a href="https://github.com/McMasterAI/Second-Brain" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mb-4 block">GitHub</a>
